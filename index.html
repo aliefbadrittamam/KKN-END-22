@@ -799,6 +799,8 @@
             clickAnywhere.style.display = 'none';
             
             // Start from beginning
+
+            bgmusic.play().catch(e => console.log('Auto-play prevented'));
             startSequence();
         }
 
